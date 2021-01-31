@@ -66,6 +66,13 @@ h1 {
   position: relative;
 }
 
+@media (max-width:608px) {
+  .container {
+    padding: 20px 10px;
+    min-width: 360px;
+  }
+}
+
 .links {
   width: 100%;
   display: flex;
